@@ -13,7 +13,7 @@ def fetch_new_pairs():
     print("Fetching new pairs...")
 
     # Dex View API endpoint for new pairs (Replace with the actual endpoint)
-    new_pairs_url = "https://api.dexview.com/new-pairs"
+    new_pairs_url = "https://openapi.dexview.com/pairs"
 
     try:
         # Fetch new pairs data
