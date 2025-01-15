@@ -1,0 +1,80 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/8orar9ua3jax6elqwr2pedpjxu2sumr5kaexxejwtlzk",
+            "pairAddress": "8orAr9uA3JAX6ELqwr2PEdpJXU2SUMr5kaeXxEJwTLZk",
+            "baseToken": {
+                "address": "CXStz3QK8fGygd7ky6NrrU3ZfcJpwAKTvpBySawspump",
+                "name": "Out Of Body Experience",
+                "symbol": "OB\u03a3"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000009396",
+            "priceUsd": "0.00001868",
+            "txns": {
+                "m5": {
+                    "buys": 5,
+                    "sells": 3
+                },
+                "h1": {
+                    "buys": 11,
+                    "sells": 21
+                },
+                "h6": {
+                    "buys": 102,
+                    "sells": 158
+                },
+                "h24": {
+                    "buys": 3640,
+                    "sells": 3445
+                }
+            },
+            "volume": {
+                "h24": 624563.31,
+                "h6": 11282.18,
+                "h1": 418.72,
+                "m5": 114.63
+            },
+            "priceChange": {
+                "m5": 2.91,
+                "h1": 3.86,
+                "h6": -37.58,
+                "h24": -75.88
+            },
+            "liquidity": {
+                "usd": 18843.61,
+                "base": 504749905,
+                "quote": 47.3126
+            },
+            "fdv": 18687,
+            "marketCap": 18687,
+            "pairCreatedAt": 1735523205000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/CXStz3QK8fGygd7ky6NrrU3ZfcJpwAKTvpBySawspump.png?key=bbb241",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/CXStz3QK8fGygd7ky6NrrU3ZfcJpwAKTvpBySawspump/header.png?key=bbb241",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/CXStz3QK8fGygd7ky6NrrU3ZfcJpwAKTvpBySawspump?timestamp=1735663800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/OBESOLANA"
+                    },
+                    {
+                        "type": "telegram",
+                        "url": "https://t.me/CTOOutofBodyExperience"
+                    }
+                ]
+            },
+            "boosts": {
+                "active": 10
+            }
+        }
+    ]
+}
