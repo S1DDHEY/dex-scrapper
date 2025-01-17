@@ -2,7 +2,7 @@ import requests
 import json
 
 # Enter the pair address or token symbol
-pair_address = "2VHjT2fQvVm8KE1L2PZThvm4zpUNQFb9zWGCVpmDu9GR"  # Replace with actual pair address or token symbol
+pair_address = "7t74pdGoubgdmvmUDytpd1Pidnn5ZRH19bD83rJbpump"  # Replace with actual pair address or token symbol
 
 # API Endpoint
 url = f"https://api.dexscreener.com/latest/dex/search?q={pair_address}"

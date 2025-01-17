@@ -1,40 +1,57 @@
 import requests
 import csv
 import os
-import json
 import schedule
 import time
+import dontshare
 
 # Directory to store CSV files
 output_dir = "./coin_data"
 os.makedirs(output_dir, exist_ok=True)
 
-def fetch_new_pairs():
-    print("Fetching new pairs...")
+# Keep track of processed pairs
+processed_pairs = set()
 
-    # Dex View API endpoint for new pairs (Replace with the actual endpoint)
-    new_pairs_url = "https://openapi.dexview.com/pairs"
+def fetch_new_pairs():
+    # print("Fetching new pairs...")  #<--------------------------------------------------------------------------
+
+    # BirdEye API endpoint for new pairs
+    new_pairs_url = "https://public-api.birdeye.so/defi/v2/tokens/new_listing?limit=10&meme_platform_enabled=false"
+
+    headers = {
+        "accept": "application/json",
+        "x-chain": "solana",  # Update the chain if necessary
+        "X-API-KEY": f"{dontshare.API_KEY}"  # Include the API key in the headers
+    }
 
     try:
         # Fetch new pairs data
-        response = requests.get(new_pairs_url)
+        response = requests.get(new_pairs_url, headers=headers)
         response.raise_for_status()
         data = response.json()
 
-        # Check if 'pairs' key exists (Adjust key if needed based on Dex View response structure)
-        if 'pairs' not in data or not data['pairs']:
+        # Navigate through the response to get the list of items
+        items = data.get("data", {}).get("items", [])
+
+        if not items:
             print("No new pairs found.")
             return
 
-        for pair in data['pairs']:
-            # Extract the pair address or token symbol (Adjust key based on Dex View response)
-            pair_address = pair.get('pair_address')  # Replace with the actual key in Dex View response
+        for item in items:
+            # Extract token address
+            pair_address = item.get("address")  # Ensure key matches the BirdEye API response
             if not pair_address:
-                print("Pair address not found for a pair.")
+                print("Token address not found in an item.")
                 continue
 
-            # Fetch data for the pair using Dex Screener API and save it
-            fetch_pair_data(pair_address)
+            # Skip if pair has already been processed
+            if pair_address in processed_pairs:
+                # print(f"Skipping {pair_address} as it has already been processed.") #<--------------------------------------------------------------------------
+                continue
+
+            # Fetch data for the pair using Dex Screener API
+            if fetch_pair_data(pair_address):
+                processed_pairs.add(pair_address)
 
     except requests.exceptions.RequestException as e:
         print("API request for new pairs failed:", e)
@@ -42,7 +59,7 @@ def fetch_new_pairs():
         print("An error occurred while fetching new pairs:", e)
 
 def fetch_pair_data(pair_address):
-    print(f"Fetching data for pair: {pair_address}...")
+    # print(f"Fetching data for pair: {pair_address}...") #<--------------------------------------------------------------------------
 
     # Dex Screener API endpoint for pair data
     url = f"https://api.dexscreener.com/latest/dex/search?q={pair_address}"
@@ -58,11 +75,17 @@ def fetch_pair_data(pair_address):
 
         # Check if 'pairs' key exists
         if 'pairs' not in data or not data['pairs']:
-            print(f"No data found for the pair address: {pair_address}.")
-            return
+            # print(f"No data found for the pair address: {pair_address}.") #<--------------------------------------------------------------------------
+            return False
 
         # Extract the first pair (assuming single match)
         pair = data['pairs'][0]
+
+        # Check if socials exist in 'info' section
+        socials = pair.get("info", {}).get("socials", [])
+        if not socials:
+            # print(f"Skipping {pair_address} as it has no social links.") #<--------------------------------------------------------------------------
+            return False
 
         # Extract required fields
         price_usd = pair.get('priceUsd', "N/A")
@@ -128,6 +151,7 @@ def fetch_pair_data(pair_address):
             writer.writerow(row)
 
         print(f"Data saved to {csv_file}.")
+        return True
 
     except requests.exceptions.RequestException as e:
         print(f"API request failed for pair {pair_address}:", e)
@@ -135,9 +159,10 @@ def fetch_pair_data(pair_address):
         print(f"KeyError for pair {pair_address}: {e} - Check API response structure.")
     except Exception as e:
         print(f"An error occurred for pair {pair_address}: {e}")
+    return False
 
 # Schedule the tasks
-schedule.every(1).minutes.do(fetch_new_pairs)
+schedule.every(1).seconds.do(fetch_new_pairs)
 
 while True:
     schedule.run_pending()

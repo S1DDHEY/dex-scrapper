@@ -1,0 +1,61 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/htqynpkf18pjmjxb2hag6qxgutbmklkkamunlm7ntv8f",
+            "pairAddress": "HtQynpKF18PjMjxB2hAg6QxGUtbmkLKKaMUnLm7NTv8F",
+            "baseToken": {
+                "address": "7t74pdGoubgdmvmUDytpd1Pidnn5ZRH19bD83rJbpump",
+                "name": "Agent Adin",
+                "symbol": "ADIN"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000002341",
+            "priceUsd": "0.000005135",
+            "txns": {
+                "m5": {
+                    "buys": 1,
+                    "sells": 7
+                },
+                "h1": {
+                    "buys": 584,
+                    "sells": 606
+                },
+                "h6": {
+                    "buys": 584,
+                    "sells": 606
+                },
+                "h24": {
+                    "buys": 584,
+                    "sells": 606
+                }
+            },
+            "volume": {
+                "h24": 261983.36,
+                "h6": 261983.36,
+                "h1": 261983.36,
+                "m5": 229.06
+            },
+            "priceChange": {
+                "m5": -9.31,
+                "h1": -94.46,
+                "h6": -94.46,
+                "h24": -94.46
+            },
+            "liquidity": {
+                "usd": 8738.7,
+                "base": 849736195,
+                "quote": 19.9479
+            },
+            "fdv": 5136,
+            "marketCap": 5136,
+            "pairCreatedAt": 1737134115000
+        }
+    ]
+}
