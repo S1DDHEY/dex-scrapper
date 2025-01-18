@@ -16,7 +16,7 @@ def fetch_new_pairs():
     # print("Fetching new pairs...")  #<--------------------------------------------------------------------------
 
     # BirdEye API endpoint for new pairs
-    new_pairs_url = "https://public-api.birdeye.so/defi/v2/tokens/new_listing?limit=10&meme_platform_enabled=false"
+    new_pairs_url = "https://public-api.birdeye.so/defi/v2/tokens/new_listing?limit=5&meme_platform_enabled=false"
 
     headers = {
         "accept": "application/json",
@@ -162,7 +162,7 @@ def fetch_pair_data(pair_address):
     return False
 
 # Schedule the tasks
-schedule.every(1).seconds.do(fetch_new_pairs)
+schedule.every(10).seconds.do(fetch_new_pairs)
 
 while True:
     schedule.run_pending()
