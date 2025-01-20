@@ -3,14 +3,19 @@ import csv
 import os
 import schedule
 import time
-import dontshare
+from dotenv import load_dotenv
+# import dontshare
 
 # Directory to store CSV files
 output_dir = "./coin_data"
 os.makedirs(output_dir, exist_ok=True)
 
+load_dotenv()
+
 # Keep track of processed pairs
 processed_pairs = set()
+BIRDEYE_API_KEY=os.getenv("BIRDEYE_API_KEY")
+
 
 def fetch_new_pairs():
     # print("Fetching new pairs...")  #<--------------------------------------------------------------------------
@@ -21,7 +26,7 @@ def fetch_new_pairs():
     headers = {
         "accept": "application/json",
         "x-chain": "solana",  # Update the chain if necessary
-        "X-API-KEY": f"{dontshare.API_KEY}"  # Include the API key in the headers
+        "X-API-KEY": f"{BIRDEYE_API_KEY}"  # Include the API key in the headers
     }
 
     try:

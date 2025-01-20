@@ -8,11 +8,21 @@ import time
 output_dir = "./test_coin_data"
 os.makedirs(output_dir, exist_ok=True)
 
-# List of predefined pair addresses
-pair_addresses = [
-    "0x9d846CEeDDfd84c3B7010F29CdC513bdeFddA8b8",  # Replace with actual pair addresses
-    "HqB7HKGiFhU5BViRKKNTCJiF1GAakyM5KQmiqeayb7FX"
-]
+# Directory containing CSV files with pair addresses
+input_dir = "./coin_data"
+
+def get_pair_addresses():
+    pair_addresses = []
+    for filename in os.listdir(input_dir):
+        if filename.endswith(".csv"):
+            csv_path = os.path.join(input_dir, filename)
+            with open(csv_path, mode='r', newline='') as file:
+                reader = csv.reader(file)
+                next(reader, None)  # Skip the first line (header)
+                for row in reader:
+                    if row:  # Assuming first column contains pair addresses
+                        pair_addresses.append(row[0])
+    return list(set(pair_addresses))  # Remove duplicates
 
 def fetch_pair_data(pair_address):
     print(f"Fetching data for pair: {pair_address}...")
@@ -110,7 +120,7 @@ def fetch_pair_data(pair_address):
         print(f"An error occurred for pair {pair_address}: {e}")
 
 # Schedule the tasks
-schedule.every(1).minutes.do(lambda: [fetch_pair_data(pair) for pair in pair_addresses])
+schedule.every(1).minutes.do(lambda: [fetch_pair_data(pair) for pair in get_pair_addresses()])
 
 while True:
     schedule.run_pending()
