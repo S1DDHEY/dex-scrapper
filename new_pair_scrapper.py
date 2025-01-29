@@ -1,3 +1,8 @@
+'''
+This code checks for new pairs on Solana using the birdeye api and filters them on the basis of socials using dex screener.
+(makes changes in the fetching time from the last line when needed)
+'''
+
 import requests
 import csv
 import os
