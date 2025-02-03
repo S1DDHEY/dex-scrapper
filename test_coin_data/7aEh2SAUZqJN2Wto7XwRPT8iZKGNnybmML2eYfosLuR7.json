@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/ef7sxuoeaq8ba7gacksx2qmulyebrmoqwh1nrhcbvemh",
+            "pairAddress": "Ef7sxUoEaq8bA7GACKsx2qmuLYEbRMoQwh1nrhcbvEMH",
+            "baseToken": {
+                "address": "7aEh2SAUZqJN2Wto7XwRPT8iZKGNnybmML2eYfosLuR7",
+                "name": "RICKROLL",
+                "symbol": "RICKROLL"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.000000000001597",
+            "priceUsd": "0.0000000003105",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 166,
+                    "sells": 143
+                }
+            },
+            "volume": {
+                "h24": 2219.48,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -100
+            },
+            "liquidity": {
+                "usd": 0.31,
+                "base": 781846,
+                "quote": 0.00163
+            },
+            "fdv": 1,
+            "marketCap": 1,
+            "pairCreatedAt": 1738519108000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/7aEh2SAUZqJN2Wto7XwRPT8iZKGNnybmML2eYfosLuR7.png?key=74d635",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7aEh2SAUZqJN2Wto7XwRPT8iZKGNnybmML2eYfosLuR7/header.png?key=74d635",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7aEh2SAUZqJN2Wto7XwRPT8iZKGNnybmML2eYfosLuR7?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/rickrolI_meme_"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "fluxbeam",
+            "url": "https://dexscreener.com/solana/cr8hbucsy2aszqrtxjxdp5mpmtpzh7tdrr4i8letwnrv",
+            "pairAddress": "CR8hBuCSY2ASZqRtXjxdp5mpmtPzH7TDrr4i8LETWNrV",
+            "baseToken": {
+                "address": "D6sivUry518A3Qi5L88sS8Mq6WHwHaW8mqwQEKB66S1C",
+                "name": "FRANCE BANNED PUMPFUN",
+                "symbol": "FRANCE"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.004030",
+            "priceUsd": "0.9170",
+            "txns": {
+                "m5": {
+                    "buys": 9,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 9,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 9,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 9,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 14669.19,
+                "h6": 14669.19,
+                "h1": 14669.19,
+                "m5": 14669.19
+            },
+            "priceChange": {
+                "m5": 25099,
+                "h1": 25099,
+                "h6": 25099,
+                "h24": 25099
+            },
+            "liquidity": {
+                "usd": 28974.45,
+                "base": 15345,
+                "quote": 65.5
+            },
+            "fdv": 9170340515,
+            "marketCap": 9170340515,
+            "pairCreatedAt": 1738411078000
+        }
+    ]
+}

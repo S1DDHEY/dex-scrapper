@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/5nq7d8ddxfyr8fyalttnmdrp54qtnqefeecpe6xufbwv",
+            "pairAddress": "5Nq7D8DDXfYr8fyaLtTNMdrp54QtnQEfEecpe6xUFBwv",
+            "baseToken": {
+                "address": "9Uin1wGfKkzhUQMx2dDVkRR1XPad8tU61wxjuwGMk9ce",
+                "name": "Lil Cobruh",
+                "symbol": "COBRUH"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.0000000003553",
+            "priceUsd": "0.00000007200",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 816,
+                    "sells": 648
+                }
+            },
+            "volume": {
+                "h24": 220088.88,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -99.86
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 5943.4524,
+                "quote": 7.24e-07
+            },
+            "fdv": 144,
+            "marketCap": 144,
+            "pairCreatedAt": 1738517852000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/9Uin1wGfKkzhUQMx2dDVkRR1XPad8tU61wxjuwGMk9ce.png?key=7a87a6",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/9Uin1wGfKkzhUQMx2dDVkRR1XPad8tU61wxjuwGMk9ce/header.png?key=7a87a6",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9Uin1wGfKkzhUQMx2dDVkRR1XPad8tU61wxjuwGMk9ce?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/LiICobruh"
+                    }
+                ]
+            }
+        }
+    ]
+}

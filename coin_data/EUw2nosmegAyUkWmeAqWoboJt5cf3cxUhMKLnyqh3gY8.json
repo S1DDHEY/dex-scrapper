@@ -1,0 +1,56 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "fluxbeam",
+            "url": "https://dexscreener.com/solana/2miovid5g2g5dzmgpzdbegvl59cm6bwqfbjjzzuddf5e",
+            "pairAddress": "2mioVid5G2G5dZMgpZdbEGvL59CM6bwQFBJJZzUDDF5E",
+            "baseToken": {
+                "address": "EUw2nosmegAyUkWmeAqWoboJt5cf3cxUhMKLnyqh3gY8",
+                "name": " Slerf Season 2",
+                "symbol": " Slerf v2"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000006802",
+            "priceUsd": "0.00001550",
+            "txns": {
+                "m5": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 0.28,
+                "h6": 0.28,
+                "h1": 0.28,
+                "m5": 0.28
+            },
+            "priceChange": {},
+            "liquidity": {
+                "usd": 10217.94,
+                "base": 599981940,
+                "quote": 4.001228
+            },
+            "fdv": 15510,
+            "marketCap": 15510,
+            "pairCreatedAt": 1738412134000
+        }
+    ]
+}

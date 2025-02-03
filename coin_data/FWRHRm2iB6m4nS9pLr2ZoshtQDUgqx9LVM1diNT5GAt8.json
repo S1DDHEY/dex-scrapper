@@ -1,0 +1,59 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/479zzbwxccf5ot1ebgby6nfkuzuvqaiv7ba1phahwaqv",
+            "pairAddress": "479zzbWXCCf5oT1EbGby6NFKUZuvqaiV7bA1pHAhWaqV",
+            "labels": [
+                "CLMM"
+            ],
+            "baseToken": {
+                "address": "FWRHRm2iB6m4nS9pLr2ZoshtQDUgqx9LVM1diNT5GAt8",
+                "name": "Lightning McQueen",
+                "symbol": "LMN"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.1302",
+            "priceUsd": "29.61",
+            "txns": {
+                "m5": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 2.25,
+                "h6": 2.25,
+                "h1": 2.25,
+                "m5": 2.25
+            },
+            "priceChange": {},
+            "liquidity": {
+                "usd": 36.32,
+                "base": 0.6132,
+                "quote": 0.0799
+            },
+            "fdv": 29615861,
+            "marketCap": 29615861,
+            "pairCreatedAt": 1738410967000
+        }
+    ]
+}

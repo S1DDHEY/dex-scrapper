@@ -1,0 +1,61 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/8rxseypshyzdce3mvzbgvvfdxxykgcqzt9qrnes6tsax",
+            "pairAddress": "8rXsEypShYzDcE3MvzbgVVFDXXykGCqZT9qrnEs6TsAx",
+            "baseToken": {
+                "address": "7jiFYfsHYqZTeAGChgXRbhJunLUaB1Tx4MbH4C3spump",
+                "name": "FORTNITE",
+                "symbol": "FORTNITE"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.001190",
+            "priceUsd": "0.2717",
+            "txns": {
+                "m5": {
+                    "buys": 25,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 25,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 25,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 25,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 80049.81,
+                "h6": 80049.81,
+                "h1": 80049.81,
+                "m5": 80049.81
+            },
+            "priceChange": {
+                "m5": 163610,
+                "h1": 163610,
+                "h6": 163610,
+                "h24": 163610
+            },
+            "liquidity": {
+                "usd": 160529,
+                "base": 295730,
+                "quote": 351.2878
+            },
+            "fdv": 271750780,
+            "marketCap": 271750780,
+            "pairCreatedAt": 1738411680000
+        }
+    ]
+}

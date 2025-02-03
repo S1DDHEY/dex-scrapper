@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/7ndxxaa1yvmi6c22l5bcm1cbfmxbywj5wdfyubuw8v4r",
+            "pairAddress": "7NDxXaA1yVMi6c22L5bCm1CbFMXbyWj5wDFYUBuW8V4R",
+            "baseToken": {
+                "address": "7jYoLcsHQDhj9QTKUCBQ9SLJBk3eEgGTM1dSiFwrpump",
+                "name": "NoRugz",
+                "symbol": "NoRugz"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.000000000008684",
+            "priceUsd": "0.000000001669",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 2677,
+                    "sells": 2081
+                }
+            },
+            "volume": {
+                "h24": 857293.23,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -100
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 51720,
+                "quote": 6.8e-08
+            },
+            "fdv": 2,
+            "marketCap": 2,
+            "pairCreatedAt": 1738520229000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/7jYoLcsHQDhj9QTKUCBQ9SLJBk3eEgGTM1dSiFwrpump.png?key=1ccfee",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7jYoLcsHQDhj9QTKUCBQ9SLJBk3eEgGTM1dSiFwrpump/header.png?key=1ccfee",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7jYoLcsHQDhj9QTKUCBQ9SLJBk3eEgGTM1dSiFwrpump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/ChandraRan35765"
+                    }
+                ]
+            }
+        }
+    ]
+}

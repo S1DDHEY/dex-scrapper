@@ -1,0 +1,71 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/dnl5ceukwjunmnv7nopknzwrzfqfdnwkqml19yn91qbf",
+            "pairAddress": "DNL5cEuKwJUnMnv7noPkNzwrzfqfdnWKQML19yn91QBF",
+            "baseToken": {
+                "address": "FnGAskpqsE4wu5SQcMz2XwXVxB925fuDGa25UnZcpump",
+                "name": "Numpty",
+                "symbol": "NUMPTY"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.0000000007432",
+            "priceUsd": "0.0000001489",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 13,
+                    "sells": 8
+                },
+                "h24": {
+                    "buys": 581,
+                    "sells": 328
+                }
+            },
+            "volume": {
+                "h24": 150805.85,
+                "h6": 284.24,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h6": -13.82,
+                "h24": -99.26
+            },
+            "liquidity": {
+                "usd": 249.47,
+                "base": 855932294,
+                "quote": 0.6087
+            },
+            "fdv": 149,
+            "marketCap": 149,
+            "pairCreatedAt": 1738521068000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/FnGAskpqsE4wu5SQcMz2XwXVxB925fuDGa25UnZcpump.png?key=45ca86",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/FnGAskpqsE4wu5SQcMz2XwXVxB925fuDGa25UnZcpump/header.png?key=45ca86",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/FnGAskpqsE4wu5SQcMz2XwXVxB925fuDGa25UnZcpump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/svsgx37514471"
+                    }
+                ]
+            }
+        }
+    ]
+}

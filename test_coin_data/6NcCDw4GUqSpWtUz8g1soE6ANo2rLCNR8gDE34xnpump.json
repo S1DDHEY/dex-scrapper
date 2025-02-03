@@ -1,0 +1,72 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/8mgkzkahwqvpy2fbae5esngubvmazjbtvrnujpftq6a9",
+            "pairAddress": "8mGKZkAhwQVpY2fbaE5eSNguBVmAzJbTVRnuJPFTQ6a9",
+            "baseToken": {
+                "address": "6NcCDw4GUqSpWtUz8g1soE6ANo2rLCNR8gDE34xnpump",
+                "name": "Grand Trump Auto 6",
+                "symbol": "GtrumpA6"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.000000003545",
+            "priceUsd": "0.0000007026",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 1
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 1
+                },
+                "h24": {
+                    "buys": 685,
+                    "sells": 837
+                }
+            },
+            "volume": {
+                "h24": 164698.62,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h1": -95.08,
+                "h6": -95.08,
+                "h24": -98.64
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 1249.5351,
+                "quote": 3.004e-06
+            },
+            "fdv": 703,
+            "marketCap": 703,
+            "pairCreatedAt": 1738516087000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/6NcCDw4GUqSpWtUz8g1soE6ANo2rLCNR8gDE34xnpump.png?key=4eb975",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/6NcCDw4GUqSpWtUz8g1soE6ANo2rLCNR8gDE34xnpump/header.png?key=4eb975",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6NcCDw4GUqSpWtUz8g1soE6ANo2rLCNR8gDE34xnpump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/lwuqz36537759"
+                    }
+                ]
+            }
+        }
+    ]
+}

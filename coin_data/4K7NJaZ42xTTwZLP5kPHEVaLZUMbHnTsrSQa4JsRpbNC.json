@@ -1,0 +1,56 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "fluxbeam",
+            "url": "https://dexscreener.com/solana/a5xfktft792ppf2mt3eboxpr6jwckbs2ktbpqbahwqrf",
+            "pairAddress": "A5xFktFt792PPF2mT3EBoXpr6jWcKBs2ktBPqBAhWQRf",
+            "baseToken": {
+                "address": "4K7NJaZ42xTTwZLP5kPHEVaLZUMbHnTsrSQa4JsRpbNC",
+                "name": "Fuack the Duck",
+                "symbol": "fuack"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000006802",
+            "priceUsd": "0.00001547",
+            "txns": {
+                "m5": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 0.3,
+                "h6": 0.3,
+                "h1": 0.3,
+                "m5": 0.3
+            },
+            "priceChange": {},
+            "liquidity": {
+                "usd": 10195.89,
+                "base": 599980376,
+                "quote": 4.001334
+            },
+            "fdv": 15476,
+            "marketCap": 15476,
+            "pairCreatedAt": 1738410687000
+        }
+    ]
+}

@@ -1,127 +1,107 @@
 import requests
-import csv
+import json
 import os
-import schedule
 import time
+import schedule
+from dotenv import load_dotenv
 
-# Directory to store CSV files
-output_dir = "./test_coin_data"
-os.makedirs(output_dir, exist_ok=True)
+load_dotenv()
 
-# Directory containing CSV files with pair addresses
-input_dir = "./coin_data"
+BIRDEYE_API_KEY = os.getenv("BIRDEYE_API_KEY")
 
-def get_pair_addresses():
-    pair_addresses = []
-    for filename in os.listdir(input_dir):
-        if filename.endswith(".csv"):
-            csv_path = os.path.join(input_dir, filename)
-            with open(csv_path, mode='r', newline='') as file:
-                reader = csv.reader(file)
-                next(reader, None)  # Skip the first line (header)
-                for row in reader:
-                    if row:  # Assuming first column contains pair addresses
-                        pair_addresses.append(row[0])
-    return list(set(pair_addresses))  # Remove duplicates
+# File to store processed pairs
+PROCESSED_PAIRS_FILE = "processed_pairs.json"
+
+# Load processed pairs
+if os.path.exists(PROCESSED_PAIRS_FILE):
+    with open(PROCESSED_PAIRS_FILE, "r") as file:
+        try:
+            processed_pairs = set(json.load(file))
+        except json.JSONDecodeError:
+            processed_pairs = set()
+else:
+    processed_pairs = set()
+
+no_data_pairs = set()
+
+def save_processed_pairs():
+    """Save processed pairs to a file."""
+    with open(PROCESSED_PAIRS_FILE, "w") as file:
+        json.dump(list(processed_pairs), file, indent=4)
 
 def fetch_pair_data(pair_address):
-    print(f"Fetching data for pair: {pair_address}...")
+    """Fetch data for a given pair from Dex Screener API."""
+    # time.sleep(20)
 
-    # API endpoint for pair data
+    if pair_address in no_data_pairs:
+        return False  # Skip already marked addresses
+
     url = f"https://api.dexscreener.com/latest/dex/search?q={pair_address}"
-
-    # Output CSV file name
-    csv_file = os.path.join(output_dir, f"{pair_address}.csv")
-
+    json_file = f"./coin_data/{pair_address}.json"
+    
     try:
-        # Fetch data from the API
         response = requests.get(url)
         response.raise_for_status()
         data = response.json()
 
-        # Check if 'pairs' key exists
-        if 'pairs' not in data or len(data['pairs']) == 0:
-            print(f"No data found for the pair address: {pair_address}.")
-            return
+        if 'pairs' not in data or not data['pairs']:
+            print(f"No data found for {pair_address}")
+            no_data_pairs.add(pair_address)  # Mark it as "no data"
+            return False
+        
+        # If data is found, remove it from no_data_pairs
+        if pair_address in no_data_pairs:
+            no_data_pairs.remove(pair_address) 
 
-        # Extract the first pair (assuming single match)
-        pair = data['pairs'][0]
-
-        # Extract required fields
-        price_usd = pair.get('priceUsd', "N/A")
-        fdv = pair.get('fdv', "N/A")
-        mkt_cap = pair.get('marketCap', "N/A")
-        liquidity = pair['liquidity'].get('usd', "N/A")
-
-        # Transactions for m5, h1, h6, h24
-        txns = pair.get('txns', {})
-        buys_sells = {
-            'm5': {
-                'buys': txns.get('m5', {}).get('buys', "N/A"),
-                'sells': txns.get('m5', {}).get('sells', "N/A")
-            },
-            'h1': {
-                'buys': txns.get('h1', {}).get('buys', "N/A"),
-                'sells': txns.get('h1', {}).get('sells', "N/A")
-            },
-            'h6': {
-                'buys': txns.get('h6', {}).get('buys', "N/A"),
-                'sells': txns.get('h6', {}).get('sells', "N/A")
-            },
-            'h24': {
-                'buys': txns.get('h24', {}).get('buys', "N/A"),
-                'sells': txns.get('h24', {}).get('sells', "N/A")
-            }
-        }
-
-        # Volumes for m5, h1, h6, h24
-        volumes = {
-            'm5': pair.get('volume', {}).get('m5', "N/A"),
-            'h1': pair.get('volume', {}).get('h1', "N/A"),
-            'h6': pair.get('volume', {}).get('h6', "N/A"),
-            'h24': pair.get('volume', {}).get('h24', "N/A")
-        }
-
-        # Prepare data for CSV
-        row = [
-            pair_address, price_usd, fdv, mkt_cap, liquidity,
-            buys_sells['m5']['buys'], buys_sells['m5']['sells'],
-            buys_sells['h1']['buys'], buys_sells['h1']['sells'],
-            buys_sells['h6']['buys'], buys_sells['h6']['sells'],
-            buys_sells['h24']['buys'], buys_sells['h24']['sells'],
-            volumes['m5'], volumes['h1'], volumes['h6'], volumes['h24']
-        ]
-
-        # Check if CSV exists
-        file_exists = os.path.isfile(csv_file)
-
-        # Write to CSV
-        with open(csv_file, mode='a', newline='') as file:
-            writer = csv.writer(file)
-
-            # Write header if file is being created
-            if not file_exists:
-                writer.writerow([
-                    "Pair Address", "Price (USD)", "FDV", "Market Cap", "Liquidity (USD)",
-                    "M5 Buys", "M5 Sells", "H1 Buys", "H1 Sells", "H6 Buys", "H6 Sells", "H24 Buys", "H24 Sells",
-                    "Volume M5", "Volume H1", "Volume H6", "Volume H24"
-                ])
-
-            # Write the data row
-            writer.writerow(row)
-
-        print(f"Data saved to {csv_file}.")
-
+        with open(json_file, 'w') as file:
+            json.dump(data, file, indent=4)
+        
+        print(f"New coin found! Data saved to {json_file}.")
+        return True
     except requests.exceptions.RequestException as e:
-        print(f"API request failed for pair {pair_address}:", e)
-    except KeyError as e:
-        print(f"KeyError for pair {pair_address}: {e} - Check API response structure.")
+        print(f"API request failed for {pair_address}:", e)
+        return False
+
+def fetch_new_pairs():
+    """Fetch new pairs from BirdEye API and process them."""
+    new_pairs_url = "https://public-api.birdeye.so/defi/v2/tokens/new_listing?limit=5&meme_platform_enabled=false"
+    headers = {
+        "accept": "application/json",
+        "x-chain": "solana",
+        "X-API-KEY": BIRDEYE_API_KEY
+    }
+    
+    try:
+        response = requests.get(new_pairs_url, headers=headers)
+        response.raise_for_status()
+        data = response.json()
+        items = data.get("data", {}).get("items", [])
+        
+        if not items:
+            return
+        
+        new_pairs_found = False
+        
+        for item in items:
+            pair_address = item.get("address")
+            if not pair_address or pair_address in processed_pairs or pair_address in no_data_pairs:
+                continue
+            
+            if fetch_pair_data(pair_address):
+                processed_pairs.add(pair_address)
+                new_pairs_found = True
+        
+        if new_pairs_found:
+            save_processed_pairs()
+    
+    except requests.exceptions.RequestException as e:
+        print("API request for new pairs failed:", e)
     except Exception as e:
-        print(f"An error occurred for pair {pair_address}: {e}")
+        print("An error occurred while fetching new pairs:", e)
 
-# Schedule the tasks
-schedule.every(1).minutes.do(lambda: [fetch_pair_data(pair) for pair in get_pair_addresses()])
+schedule.every(5).seconds.do(fetch_new_pairs)
 
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+if __name__ == "__main__":
+    while True:
+        schedule.run_pending()
+        time.sleep(1)

@@ -1,0 +1,68 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/2khdkpygdmvbt3rhbcbbh9eb4ynwjehewfumgvi7lzaw",
+            "pairAddress": "2khDKPYGdmVbT3RhbCbBH9Eb4ynwJeHewFUmGvi7LZaW",
+            "baseToken": {
+                "address": "68b1tWbF6pDTT6MNShkt5qr2appD56ymTVcgwVcHX18",
+                "name": "My Future Self",
+                "symbol": "self"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000000000002951",
+            "priceUsd": "0.000000000005554",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1592,
+                    "sells": 1612
+                }
+            },
+            "volume": {
+                "h24": 393856.78,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -100
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 1584418,
+                "quote": 4.2e-08
+            },
+            "pairCreatedAt": 1738519799000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/68b1tWbF6pDTT6MNShkt5qr2appD56ymTVcgwVcHX18.png?key=0f4655",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/68b1tWbF6pDTT6MNShkt5qr2appD56ymTVcgwVcHX18/header.png?key=0f4655",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/68b1tWbF6pDTT6MNShkt5qr2appD56ymTVcgwVcHX18?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/MyFutureSeIfSOL"
+                    }
+                ]
+            }
+        }
+    ]
+}

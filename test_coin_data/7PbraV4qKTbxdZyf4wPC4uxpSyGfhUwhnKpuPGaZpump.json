@@ -1,0 +1,71 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/385lugjjigepzrwvf1eoxxm9yxtmd5zrbbsqxhpqc8qw",
+            "pairAddress": "385LUGJjigEPzRWvF1eoxxM9yXTMd5zRBBsQXHPqC8qw",
+            "baseToken": {
+                "address": "7PbraV4qKTbxdZyf4wPC4uxpSyGfhUwhnKpuPGaZpump",
+                "name": "Melaia AI",
+                "symbol": "Melaia "
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000002314",
+            "priceUsd": "0.000004551",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 1,
+                    "sells": 1
+                },
+                "h24": {
+                    "buys": 1671,
+                    "sells": 1112
+                }
+            },
+            "volume": {
+                "h24": 403017.53,
+                "h6": 0.01,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h6": 524,
+                "h24": -94.29
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 91.2022,
+                "quote": 3.21e-05
+            },
+            "fdv": 4552,
+            "marketCap": 4552,
+            "pairCreatedAt": 1738520896000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/7PbraV4qKTbxdZyf4wPC4uxpSyGfhUwhnKpuPGaZpump.png?key=960de7",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7PbraV4qKTbxdZyf4wPC4uxpSyGfhUwhnKpuPGaZpump/header.png?key=960de7",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7PbraV4qKTbxdZyf4wPC4uxpSyGfhUwhnKpuPGaZpump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/nukikashi1974"
+                    }
+                ]
+            }
+        }
+    ]
+}

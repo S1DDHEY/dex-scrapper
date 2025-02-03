@@ -1,0 +1,56 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "fluxbeam",
+            "url": "https://dexscreener.com/solana/8mr3jj6pv2taytdpetqctbe1xvgtarkwtsmzypxansfb",
+            "pairAddress": "8Mr3jJ6Pv2tayTdPETQctBE1XvgTARKWtSMzypXaNSFb",
+            "baseToken": {
+                "address": "FtMMP67B1hgMM8n2HPRgCXjkEU5XiiiPw9EXPFFRMgrX",
+                "name": "GANG",
+                "symbol": "GANG"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000006802",
+            "priceUsd": "0.00001547",
+            "txns": {
+                "m5": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 0.25,
+                "h6": 0.25,
+                "h1": 0.25,
+                "m5": 0.25
+            },
+            "priceChange": {},
+            "liquidity": {
+                "usd": 10194.49,
+                "base": 599983493,
+                "quote": 4.001122
+            },
+            "fdv": 15474,
+            "marketCap": 15474,
+            "pairCreatedAt": 1738409434000
+        }
+    ]
+}

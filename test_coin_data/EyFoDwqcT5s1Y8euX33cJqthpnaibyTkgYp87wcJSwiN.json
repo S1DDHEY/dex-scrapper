@@ -1,0 +1,75 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/gupazefyn5jf6jmgkohlszla3mnrvcneh5v5gn76joej",
+            "pairAddress": "GuPaZefYN5JF6JMgkoHLSZLA3mnrvcneh5v5Gn76joeJ",
+            "baseToken": {
+                "address": "EyFoDwqcT5s1Y8euX33cJqthpnaibyTkgYp87wcJSwiN",
+                "name": "Don the 47th Dog Of Solana",
+                "symbol": "DON"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.0000000003393",
+            "priceUsd": "0.00000006648",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 9776,
+                    "sells": 494
+                }
+            },
+            "volume": {
+                "h24": 68131.9,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -99.19
+            },
+            "liquidity": {
+                "usd": 1.97,
+                "base": 3176884,
+                "quote": 0.008979
+            },
+            "fdv": 66,
+            "marketCap": 66,
+            "pairCreatedAt": 1738517419000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/EyFoDwqcT5s1Y8euX33cJqthpnaibyTkgYp87wcJSwiN.png?key=76440e",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EyFoDwqcT5s1Y8euX33cJqthpnaibyTkgYp87wcJSwiN/header.png?key=76440e",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EyFoDwqcT5s1Y8euX33cJqthpnaibyTkgYp87wcJSwiN?timestamp=1738585800000",
+                "websites": [
+                    {
+                        "label": "Website",
+                        "url": "https://dononsolana.org/"
+                    }
+                ],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/Don47sol"
+                    }
+                ]
+            }
+        }
+    ]
+}

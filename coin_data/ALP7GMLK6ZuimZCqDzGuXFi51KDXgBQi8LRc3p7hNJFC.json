@@ -1,0 +1,64 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/e7umbccddpn9qyvuk2ex79sbfn8pdhtawtbg4drzhheg",
+            "pairAddress": "E7uMBccdDPN9qyvUK2Ex79sbfN8pdhtAWTbg4DRZhHEG",
+            "labels": [
+                "CLMM"
+            ],
+            "baseToken": {
+                "address": "ALP7GMLK6ZuimZCqDzGuXFi51KDXgBQi8LRc3p7hNJFC",
+                "name": "PENGU AI",
+                "symbol": "PENGUAI"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.000007547",
+            "priceUsd": "0.001718",
+            "txns": {
+                "m5": {
+                    "buys": 61,
+                    "sells": 45
+                },
+                "h1": {
+                    "buys": 101,
+                    "sells": 59
+                },
+                "h6": {
+                    "buys": 101,
+                    "sells": 59
+                },
+                "h24": {
+                    "buys": 101,
+                    "sells": 59
+                }
+            },
+            "volume": {
+                "h24": 273949.62,
+                "h6": 273949.62,
+                "h1": 273949.62,
+                "m5": 41678.93
+            },
+            "priceChange": {
+                "m5": 18.21,
+                "h1": 152,
+                "h6": 152,
+                "h24": 152
+            },
+            "liquidity": {
+                "usd": 393257.5,
+                "base": 114418226,
+                "quote": 863.6313
+            },
+            "fdv": 1718484,
+            "marketCap": 1718484,
+            "pairCreatedAt": 1738408605000
+        }
+    ]
+}

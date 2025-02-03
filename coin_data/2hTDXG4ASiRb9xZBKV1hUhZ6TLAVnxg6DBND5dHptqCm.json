@@ -1,0 +1,61 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "fluxbeam",
+            "url": "https://dexscreener.com/solana/ahpqbesufnmqcl3r6wfc3mzwxrhlb1kt5iyw7irk4atc",
+            "pairAddress": "AHPQBEsUfNmQCL3r6wFc3MzwxrHLB1kT5iYW7iRk4aTC",
+            "baseToken": {
+                "address": "2hTDXG4ASiRb9xZBKV1hUhZ6TLAVnxg6DBND5dHptqCm",
+                "name": "Barron",
+                "symbol": "Barron"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000006805",
+            "priceUsd": "0.00001547",
+            "txns": {
+                "m5": {
+                    "buys": 2,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 2,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 2,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 2,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 0.88,
+                "h6": 0.88,
+                "h1": 0.88,
+                "m5": 0.88
+            },
+            "priceChange": {
+                "m5": 0.04,
+                "h1": 0.04,
+                "h6": 0.04,
+                "h24": 0.04
+            },
+            "liquidity": {
+                "usd": 10192.99,
+                "base": 599942865,
+                "quote": 4.003887
+            },
+            "fdv": 15473,
+            "marketCap": 15473,
+            "pairCreatedAt": 1738409739000
+        }
+    ]
+}

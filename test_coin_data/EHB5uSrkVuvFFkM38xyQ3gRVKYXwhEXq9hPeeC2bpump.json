@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/5f9fmhfncz9uk2pl9aq1rpcuhnkpedzzavaxb1xcxcdg",
+            "pairAddress": "5f9FMhFNcZ9uK2PL9AQ1rPcUHnkpEdzZAVAxB1XCXcdG",
+            "baseToken": {
+                "address": "EHB5uSrkVuvFFkM38xyQ3gRVKYXwhEXq9hPeeC2bpump",
+                "name": "Bitsolanium",
+                "symbol": "Bitsol"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000000005354",
+            "priceUsd": "0.00000001030",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 2465,
+                    "sells": 1913
+                }
+            },
+            "volume": {
+                "h24": 591413.21,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -99.99
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 8740.4708,
+                "quote": 2.63e-07
+            },
+            "fdv": 10,
+            "marketCap": 10,
+            "pairCreatedAt": 1738517546000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/EHB5uSrkVuvFFkM38xyQ3gRVKYXwhEXq9hPeeC2bpump.png?key=ec04e3",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EHB5uSrkVuvFFkM38xyQ3gRVKYXwhEXq9hPeeC2bpump/header.png?key=ec04e3",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EHB5uSrkVuvFFkM38xyQ3gRVKYXwhEXq9hPeeC2bpump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/pusoniwa1979"
+                    }
+                ]
+            }
+        }
+    ]
+}

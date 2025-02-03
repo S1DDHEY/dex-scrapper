@@ -1,0 +1,61 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/aopgpy6wok9cahq49yxuwzltxx6yr698kbxwvccp5nrd",
+            "pairAddress": "AoPgPy6wok9cAhq49YXUWzLTxX6yR698kbxWvcCP5nrd",
+            "baseToken": {
+                "address": "7VnU3z1gXUkiUKLT6vEWHrfCF6qJpBZMWnmGTgEpump",
+                "name": "Official Cuba Coin",
+                "symbol": "CUBA"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.000004035",
+            "priceUsd": "0.0009162",
+            "txns": {
+                "m5": {
+                    "buys": 15,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 15,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 15,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 15,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 25662.15,
+                "h6": 25662.15,
+                "h1": 25662.15,
+                "m5": 25662.15
+            },
+            "priceChange": {
+                "m5": 36.69,
+                "h1": 36.69,
+                "h6": 36.69,
+                "h24": 36.69
+            },
+            "liquidity": {
+                "usd": 317541.29,
+                "base": 173490930,
+                "quote": 698.401
+            },
+            "fdv": 189582,
+            "marketCap": 189582,
+            "pairCreatedAt": 1738410330000
+        }
+    ]
+}

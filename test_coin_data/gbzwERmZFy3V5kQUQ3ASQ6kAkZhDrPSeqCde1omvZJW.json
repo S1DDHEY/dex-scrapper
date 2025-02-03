@@ -1,0 +1,88 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "meteora",
+            "url": "https://dexscreener.com/solana/dutvfkpf3f4utepwbpnydeuzvrryfso34xlupuddaz88",
+            "pairAddress": "DUtVfkpf3f4uTepWbpNydeUzvrrYFso34XLuPuDDAZ88",
+            "labels": [
+                "DYN"
+            ],
+            "baseToken": {
+                "address": "gbzwERmZFy3V5kQUQ3ASQ6kAkZhDrPSeqCde1omvZJW",
+                "name": "ReTaRdEd PePe",
+                "symbol": "RWORD"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000001215",
+            "priceUsd": "0.000002420",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 1
+                },
+                "h6": {
+                    "buys": 3,
+                    "sells": 9
+                },
+                "h24": {
+                    "buys": 282,
+                    "sells": 187
+                }
+            },
+            "volume": {
+                "h24": 21621.22,
+                "h6": 84.55,
+                "h1": 25.78,
+                "m5": 0
+            },
+            "priceChange": {
+                "h1": -3.13,
+                "h6": -0.72,
+                "h24": 151
+            },
+            "liquidity": {
+                "usd": 1965.68,
+                "base": 410633917,
+                "quote": 4.8802
+            },
+            "fdv": 2420,
+            "marketCap": 2420,
+            "pairCreatedAt": 1738512462000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/gbzwERmZFy3V5kQUQ3ASQ6kAkZhDrPSeqCde1omvZJW.png?key=5ba7d6",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/gbzwERmZFy3V5kQUQ3ASQ6kAkZhDrPSeqCde1omvZJW/header.png?key=5ba7d6",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/gbzwERmZFy3V5kQUQ3ASQ6kAkZhDrPSeqCde1omvZJW?timestamp=1738585800000",
+                "websites": [
+                    {
+                        "label": "Website",
+                        "url": "https://www.rword.fun/"
+                    },
+                    {
+                        "label": "M3M3",
+                        "url": "https://m3m3.meteora.ag/farms/DUtVfkpf3f4uTepWbpNydeUzvrrYFso34XLuPuDDAZ88"
+                    }
+                ],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/RWORDSOL"
+                    },
+                    {
+                        "type": "telegram",
+                        "url": "https://t.me/RwordSol"
+                    }
+                ]
+            }
+        }
+    ]
+}

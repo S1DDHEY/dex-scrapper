@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/dmrsdcbejvtrpdotrhmbtrstlyanvixd1wnphtmrg4yd",
+            "pairAddress": "DmrsdCBEJVtRPdotRHMbtrstLYAnViXD1wnPHtmRg4YD",
+            "baseToken": {
+                "address": "35tKhsSzb6qqciYMpFXqoomEnJPpZVdxnDfGoLnr9u5F",
+                "name": "Grizon AI",
+                "symbol": "Grizon AI"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000001535",
+            "priceUsd": "0.000003104",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 2308,
+                    "sells": 2302
+                }
+            },
+            "volume": {
+                "h24": 859039.17,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -95.43
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 511.3563,
+                "quote": 3.587e-06
+            },
+            "fdv": 3104,
+            "marketCap": 3104,
+            "pairCreatedAt": 1738516194000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/35tKhsSzb6qqciYMpFXqoomEnJPpZVdxnDfGoLnr9u5F.png?key=aade58",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/35tKhsSzb6qqciYMpFXqoomEnJPpZVdxnDfGoLnr9u5F/header.png?key=aade58",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/35tKhsSzb6qqciYMpFXqoomEnJPpZVdxnDfGoLnr9u5F?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/JenniferEv91429"
+                    }
+                ]
+            }
+        }
+    ]
+}

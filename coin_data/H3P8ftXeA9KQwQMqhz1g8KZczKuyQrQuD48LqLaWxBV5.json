@@ -1,0 +1,61 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "meteora",
+            "url": "https://dexscreener.com/solana/9kefgg6dunqtbpwdvixc4nuhekrsvb5dddhfc6enlj9r",
+            "pairAddress": "9KEFgg6DUnQtBPWDvixC4NUheKrSvB5DDdHfc6enLj9R",
+            "labels": [
+                "DYN"
+            ],
+            "baseToken": {
+                "address": "H3P8ftXeA9KQwQMqhz1g8KZczKuyQrQuD48LqLaWxBV5",
+                "name": "Farmers club",
+                "symbol": "FARMRs"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.0000000001207",
+            "priceUsd": "0.00000002804",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 7,
+                    "sells": 4
+                }
+            },
+            "volume": {
+                "h24": 36.37,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": 911
+            },
+            "liquidity": {
+                "usd": 17.89,
+                "base": 351518281,
+                "quote": 0.03461
+            },
+            "fdv": 28,
+            "marketCap": 28,
+            "pairCreatedAt": 1738382443000
+        }
+    ]
+}

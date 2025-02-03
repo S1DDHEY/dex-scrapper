@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/5nr3rnkgmy4k1hjpstrz8h9gnwrjgdyhhpqzvzbkuujs",
+            "pairAddress": "5nr3RNKgmy4k1hjpsTRZ8H9GnWRJGdYhhpQZvzbkuuJs",
+            "baseToken": {
+                "address": "E1arMmQfjXQa2PUygZPkeimCVJWEteMAbeikQ9xpump",
+                "name": "Shadow",
+                "symbol": "SDOW"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000005212",
+            "priceUsd": "0.000009747",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 2642,
+                    "sells": 2025
+                }
+            },
+            "volume": {
+                "h24": 790848.26,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -80.95
+            },
+            "liquidity": {
+                "usd": 0.01,
+                "base": 1022.1306,
+                "quote": 3.3e-06
+            },
+            "fdv": 9748,
+            "marketCap": 9748,
+            "pairCreatedAt": 1738516860000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/E1arMmQfjXQa2PUygZPkeimCVJWEteMAbeikQ9xpump.png?key=0e7d0c",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/E1arMmQfjXQa2PUygZPkeimCVJWEteMAbeikQ9xpump/header.png?key=0e7d0c",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/E1arMmQfjXQa2PUygZPkeimCVJWEteMAbeikQ9xpump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/Lovy23"
+                    }
+                ]
+            }
+        }
+    ]
+}

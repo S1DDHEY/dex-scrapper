@@ -1,0 +1,68 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/fqptkeyedzcjjbmwggzdaefquxcq9xyjnuuhg4aurx13",
+            "pairAddress": "FqpTKEYEdzcJjbmWGGZDaeFqUxcQ9XyJnuUhG4AUrx13",
+            "baseToken": {
+                "address": "HJusksVmZi5eahYTZhghEYdBkNmeDpHJuTAUYHHhpump",
+                "name": "Markcuban",
+                "symbol": "Mark1958"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.000000000001080",
+            "priceUsd": "0.0000000002210",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1379,
+                    "sells": 1173
+                }
+            },
+            "volume": {
+                "h24": 380830.2,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -100
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 49602,
+                "quote": 5.5e-08
+            },
+            "pairCreatedAt": 1738514959000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/HJusksVmZi5eahYTZhghEYdBkNmeDpHJuTAUYHHhpump.png?key=30de57",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HJusksVmZi5eahYTZhghEYdBkNmeDpHJuTAUYHHhpump/header.png?key=30de57",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HJusksVmZi5eahYTZhghEYdBkNmeDpHJuTAUYHHhpump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/darma98bjm"
+                    }
+                ]
+            }
+        }
+    ]
+}

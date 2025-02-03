@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/9nx1qusk5bnhyf1b5vzarhoxdl52yldsixr1exehegh7",
+            "pairAddress": "9NX1qUsk5bnhYf1b5VZaRHoXdL52yLdsiXR1ExEhEgh7",
+            "baseToken": {
+                "address": "6bowsbR5A4J9mGRX8qtzzmxXYXgJxY5tDouu4ACzDMaT",
+                "name": "Blacktail AI",
+                "symbol": "BLACK"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000000001435",
+            "priceUsd": "0.000000002859",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1699,
+                    "sells": 1372
+                }
+            },
+            "volume": {
+                "h24": 667164.23,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -100
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 12224,
+                "quote": 2.01e-07
+            },
+            "fdv": 3,
+            "marketCap": 3,
+            "pairCreatedAt": 1738519539000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/6bowsbR5A4J9mGRX8qtzzmxXYXgJxY5tDouu4ACzDMaT.png?key=f0d635",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/6bowsbR5A4J9mGRX8qtzzmxXYXgJxY5tDouu4ACzDMaT/header.png?key=f0d635",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6bowsbR5A4J9mGRX8qtzzmxXYXgJxY5tDouu4ACzDMaT?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/wararen1977"
+                    }
+                ]
+            }
+        }
+    ]
+}

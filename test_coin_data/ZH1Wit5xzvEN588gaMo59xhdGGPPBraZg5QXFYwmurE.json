@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/2crhd9erujk3kbakdtvavg3owaf5xxunz7kh8td7eain",
+            "pairAddress": "2CrhD9ERujk3kbAkdTVaVg3oWAF5XxUnZ7KH8Td7EAin",
+            "baseToken": {
+                "address": "ZH1Wit5xzvEN588gaMo59xhdGGPPBraZg5QXFYwmurE",
+                "name": "Poo Donkey",
+                "symbol": "POODONK"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.000000000006951",
+            "priceUsd": "0.000000001406",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 2232,
+                    "sells": 1820
+                }
+            },
+            "volume": {
+                "h24": 485385.11,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -100
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 24398,
+                "quote": 1.58e-07
+            },
+            "fdv": 1,
+            "marketCap": 1,
+            "pairCreatedAt": 1738516487000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/ZH1Wit5xzvEN588gaMo59xhdGGPPBraZg5QXFYwmurE.png?key=4f247d",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/ZH1Wit5xzvEN588gaMo59xhdGGPPBraZg5QXFYwmurE/header.png?key=4f247d",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/ZH1Wit5xzvEN588gaMo59xhdGGPPBraZg5QXFYwmurE?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/MandyRague64427"
+                    }
+                ]
+            }
+        }
+    ]
+}

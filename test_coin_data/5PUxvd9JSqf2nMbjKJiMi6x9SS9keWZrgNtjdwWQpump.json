@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/7xagjmxb1cxfs2xpcu62twzdkldubqvexsy1ucdzqqak",
+            "pairAddress": "7XAGJMXb1CxfS2xpCU62TwzDKLduBQVeXsY1UcDzQqAk",
+            "baseToken": {
+                "address": "5PUxvd9JSqf2nMbjKJiMi6x9SS9keWZrgNtjdwWQpump",
+                "name": "NYRA Agent",
+                "symbol": "NYRA"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.0000000004958",
+            "priceUsd": "0.00000009465",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 4967,
+                    "sells": 3218
+                }
+            },
+            "volume": {
+                "h24": 1070880.41,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -99.74
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 4247.686,
+                "quote": 9.76e-07
+            },
+            "fdv": 95,
+            "marketCap": 95,
+            "pairCreatedAt": 1738519473000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/5PUxvd9JSqf2nMbjKJiMi6x9SS9keWZrgNtjdwWQpump.png?key=f0e2a3",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5PUxvd9JSqf2nMbjKJiMi6x9SS9keWZrgNtjdwWQpump/header.png?key=f0e2a3",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5PUxvd9JSqf2nMbjKJiMi6x9SS9keWZrgNtjdwWQpump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/cbtlm18583484"
+                    }
+                ]
+            }
+        }
+    ]
+}

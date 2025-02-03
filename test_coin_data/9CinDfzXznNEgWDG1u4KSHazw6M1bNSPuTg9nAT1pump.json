@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/u9tavvwvfxnvo2vpzpyqmbcc7nkt2ys6g9tsbemz2yh",
+            "pairAddress": "u9TavvwvfxnVo2VPzpyqMBCc7NKT2Ys6g9tsBemZ2yH",
+            "baseToken": {
+                "address": "9CinDfzXznNEgWDG1u4KSHazw6M1bNSPuTg9nAT1pump",
+                "name": "LatestMeme",
+                "symbol": "LatestMeme"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000004708",
+            "priceUsd": "0.000009428",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1255,
+                    "sells": 1086
+                }
+            },
+            "volume": {
+                "h24": 346636.46,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -82.03
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 640.2347,
+                "quote": 4.047e-06
+            },
+            "fdv": 9428,
+            "marketCap": 9428,
+            "pairCreatedAt": 1738515354000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/9CinDfzXznNEgWDG1u4KSHazw6M1bNSPuTg9nAT1pump.png?key=753e0b",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/9CinDfzXznNEgWDG1u4KSHazw6M1bNSPuTg9nAT1pump/header.png?key=753e0b",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9CinDfzXznNEgWDG1u4KSHazw6M1bNSPuTg9nAT1pump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/CatinaJenn86578"
+                    }
+                ]
+            }
+        }
+    ]
+}

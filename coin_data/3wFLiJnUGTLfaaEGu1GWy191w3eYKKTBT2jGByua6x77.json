@@ -1,0 +1,64 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "meteora",
+            "url": "https://dexscreener.com/solana/fdr2dj25vgsqvqezorghahaxqvxrviczltt1kfvvln3x",
+            "pairAddress": "FDr2Dj25vgsQvqeZoRGHAHaXqVxrViczLtt1kFVVLN3X",
+            "labels": [
+                "DYN"
+            ],
+            "baseToken": {
+                "address": "3wFLiJnUGTLfaaEGu1GWy191w3eYKKTBT2jGByua6x77",
+                "name": "Unknown",
+                "symbol": "UNKNOWN"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.000004681",
+            "priceUsd": "0.001063",
+            "txns": {
+                "m5": {
+                    "buys": 2,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 2,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 2,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 2,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 24,
+                "h6": 24,
+                "h1": 24,
+                "m5": 24
+            },
+            "priceChange": {
+                "m5": 2.34,
+                "h1": 2.34,
+                "h6": 2.34,
+                "h24": 2.34
+            },
+            "liquidity": {
+                "usd": 1972.47,
+                "base": 977388,
+                "quote": 4.1056
+            },
+            "fdv": 1064,
+            "marketCap": 1064,
+            "pairCreatedAt": 1738410242000
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/hz3ohjnmh5hog8wx462mw4pgnpdhn8xfhb3wg6epizny",
+            "pairAddress": "HZ3ohJNmh5Hog8wx462MW4PGnpdHn8xfHB3WG6epiZny",
+            "baseToken": {
+                "address": "CL5rfVFhgs7ZEsB2hiByqZabn9fQQoufzXJm72xjpump",
+                "name": "UFOPepe",
+                "symbol": "UFO"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.000000001856",
+            "priceUsd": "0.0000003766",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1830,
+                    "sells": 1405
+                }
+            },
+            "volume": {
+                "h24": 391317.39,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -98.97
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 2735.5865,
+                "quote": 1.206e-06
+            },
+            "fdv": 377,
+            "marketCap": 377,
+            "pairCreatedAt": 1738517832000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/CL5rfVFhgs7ZEsB2hiByqZabn9fQQoufzXJm72xjpump.png?key=1c181f",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/CL5rfVFhgs7ZEsB2hiByqZabn9fQQoufzXJm72xjpump/header.png?key=1c181f",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/CL5rfVFhgs7ZEsB2hiByqZabn9fQQoufzXJm72xjpump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/dlxbu54738436"
+                    }
+                ]
+            }
+        }
+    ]
+}

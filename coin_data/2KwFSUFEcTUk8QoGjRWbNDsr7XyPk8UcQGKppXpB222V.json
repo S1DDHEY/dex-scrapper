@@ -1,0 +1,61 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/5n6mgd9rpzz69dtjshbrzaun8cihqyrphen6rkdrmug8",
+            "pairAddress": "5n6mGD9RPzz69dTjshbrzauN8ciHQyrpHeN6rKDRmUG8",
+            "baseToken": {
+                "address": "2KwFSUFEcTUk8QoGjRWbNDsr7XyPk8UcQGKppXpB222V",
+                "name": "OFFICIAL MR BEAST",
+                "symbol": "MR BEAST"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.0000001113",
+            "priceUsd": "0.00002531",
+            "txns": {
+                "m5": {
+                    "buys": 22,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 169,
+                    "sells": 16
+                },
+                "h6": {
+                    "buys": 169,
+                    "sells": 16
+                },
+                "h24": {
+                    "buys": 169,
+                    "sells": 16
+                }
+            },
+            "volume": {
+                "h24": 52194.72,
+                "h6": 52194.72,
+                "h1": 52194.72,
+                "m5": 8517.85
+            },
+            "priceChange": {
+                "m5": 10.68,
+                "h1": 106,
+                "h6": 106,
+                "h24": 106
+            },
+            "liquidity": {
+                "usd": 342379.64,
+                "base": 6756864091,
+                "quote": 753.2491
+            },
+            "fdv": 245582,
+            "marketCap": 245582,
+            "pairCreatedAt": 1738407082000
+        }
+    ]
+}

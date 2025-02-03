@@ -2,7 +2,7 @@ import requests
 import json
 
 # Enter the pair address or token symbol
-pair_address = "7t74pdGoubgdmvmUDytpd1Pidnn5ZRH19bD83rJbpump"  # Replace with actual pair address or token symbol
+pair_address = "EUw2nosmegAyUkWmeAqWoboJt5cf3cxUhMKLnyqh3gY8"  # Replace with actual pair address or token symbol
 
 # API Endpoint
 url = f"https://api.dexscreener.com/latest/dex/search?q={pair_address}"
@@ -21,7 +21,7 @@ try:
         print("No data found for the given address.")
     else:
         # Extract the relevant data (pairs only)
-        pairs_data = data['pairs']
+        pairs_data = data
 
         # Save to JSON file
         with open(json_file, 'w') as file:

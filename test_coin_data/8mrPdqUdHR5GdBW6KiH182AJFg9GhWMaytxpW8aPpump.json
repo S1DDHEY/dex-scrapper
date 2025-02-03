@@ -1,0 +1,79 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/6483h9jmb4jfi2i6tevpsvhhu3byw6uiwilvsdkjxt3z",
+            "pairAddress": "6483h9Jmb4jFi2i6tevpSVhhu3byW6UiwiLvSdkjxt3z",
+            "labels": [
+                "CPMM"
+            ],
+            "baseToken": {
+                "address": "8mrPdqUdHR5GdBW6KiH182AJFg9GhWMaytxpW8aPpump",
+                "name": "UPBIT on Solana",
+                "symbol": "UPBIT"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.0000001514",
+            "priceUsd": "0.00003008",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 4,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 4,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1036,
+                    "sells": 34
+                }
+            },
+            "volume": {
+                "h24": 17879.72,
+                "h6": 10.11,
+                "h1": 10.11,
+                "m5": 0
+            },
+            "priceChange": {
+                "h1": 2544,
+                "h6": 2544,
+                "h24": 470
+            },
+            "liquidity": {
+                "usd": 29.82,
+                "base": 495713,
+                "quote": 0.07507
+            },
+            "fdv": 30082,
+            "marketCap": 30082,
+            "pairCreatedAt": 1738519940000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/8mrPdqUdHR5GdBW6KiH182AJFg9GhWMaytxpW8aPpump.png?key=3725dc",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8mrPdqUdHR5GdBW6KiH182AJFg9GhWMaytxpW8aPpump/header.png?key=3725dc",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8mrPdqUdHR5GdBW6KiH182AJFg9GhWMaytxpW8aPpump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/UpbitOnSolana"
+                    },
+                    {
+                        "type": "telegram",
+                        "url": "https://t.me/UpbitOnSolana"
+                    }
+                ]
+            }
+        }
+    ]
+}

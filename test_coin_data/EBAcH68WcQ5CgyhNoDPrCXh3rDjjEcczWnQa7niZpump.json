@@ -1,0 +1,71 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/5pt6u2nwbzlwasja2m3nbr1l1va9bajvqgf53fzgmdhd",
+            "pairAddress": "5Pt6u2nwbzLwAsja2M3NbR1L1VA9BAjvqGF53FzgmDhd",
+            "baseToken": {
+                "address": "EBAcH68WcQ5CgyhNoDPrCXh3rDjjEcczWnQa7niZpump",
+                "name": "8 Bit Dinosaur",
+                "symbol": "8BIT DINO"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000007548",
+            "priceUsd": "0.00001494",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 2,
+                    "sells": 2
+                },
+                "h24": {
+                    "buys": 209,
+                    "sells": 242
+                }
+            },
+            "volume": {
+                "h24": 29667.07,
+                "h6": 0.02,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h6": 4733,
+                "h24": -59.86
+            },
+            "liquidity": {
+                "usd": 5.23,
+                "base": 47764,
+                "quote": 0.0228
+            },
+            "fdv": 14949,
+            "marketCap": 14949,
+            "pairCreatedAt": 1738515750000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/EBAcH68WcQ5CgyhNoDPrCXh3rDjjEcczWnQa7niZpump.png?key=9eb35d",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EBAcH68WcQ5CgyhNoDPrCXh3rDjjEcczWnQa7niZpump/header.png?key=9eb35d",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EBAcH68WcQ5CgyhNoDPrCXh3rDjjEcczWnQa7niZpump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/qkhmw96161766"
+                    }
+                ]
+            }
+        }
+    ]
+}

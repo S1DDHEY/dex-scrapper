@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/683zzqmad5iacmahdpxq2ncfnrmnabxovxlfzn7djzoa",
+            "pairAddress": "683zZQmaD5iacmahdpxQ2NcfNRmnAbXoVXLfZn7DJZoa",
+            "baseToken": {
+                "address": "8wBv4En6gGh4z1saaVJBQqjMtFXFsSbAwwJQi9hWpump",
+                "name": "Runur W3 Technology",
+                "symbol": "RUNUR"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000001390",
+            "priceUsd": "0.000002778",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 2209,
+                    "sells": 1606
+                }
+            },
+            "volume": {
+                "h24": 525286.06,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -96.5
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 524.3783,
+                "quote": 4.032e-06
+            },
+            "fdv": 2778,
+            "marketCap": 2778,
+            "pairCreatedAt": 1738519216000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/8wBv4En6gGh4z1saaVJBQqjMtFXFsSbAwwJQi9hWpump.png?key=bf7360",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8wBv4En6gGh4z1saaVJBQqjMtFXFsSbAwwJQi9hWpump/header.png?key=bf7360",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8wBv4En6gGh4z1saaVJBQqjMtFXFsSbAwwJQi9hWpump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/toritsugo1985"
+                    }
+                ]
+            }
+        }
+    ]
+}

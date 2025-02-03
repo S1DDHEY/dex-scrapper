@@ -1,0 +1,56 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "fluxbeam",
+            "url": "https://dexscreener.com/solana/6uevh2khi5saxewhxneygot5qsrzojemrtzfnv8hpbb8",
+            "pairAddress": "6UeVH2kHi5SAXEwHxneYGot5qsRZojEMRTzfNV8HpBB8",
+            "baseToken": {
+                "address": "BSMBTJNELZZXL4Su9cpSqjHdBUqhdLAFM2gEMh1C4M2x",
+                "name": "DeepSeek AI Agent",
+                "symbol": "DeepSeekAI"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000006802",
+            "priceUsd": "0.00001552",
+            "txns": {
+                "m5": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 1,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1,
+                    "sells": 0
+                }
+            },
+            "volume": {
+                "h24": 0.22,
+                "h6": 0.22,
+                "h1": 0.22,
+                "m5": 0.22
+            },
+            "priceChange": {},
+            "liquidity": {
+                "usd": 10226.29,
+                "base": 599985278,
+                "quote": 4.001001
+            },
+            "fdv": 15523,
+            "marketCap": 15523,
+            "pairCreatedAt": 1738412031000
+        }
+    ]
+}

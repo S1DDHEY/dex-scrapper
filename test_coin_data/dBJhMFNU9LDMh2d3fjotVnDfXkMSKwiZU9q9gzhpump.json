@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/5hfchxtnvcuhz5qzrsbrias5tc4hiuqnr4uffwabeucb",
+            "pairAddress": "5hFCHXtNvcuhZ5QzRSBRias5Tc4HiuqNr4UFfwAbEucB",
+            "baseToken": {
+                "address": "dBJhMFNU9LDMh2d3fjotVnDfXkMSKwiZU9q9gzhpump",
+                "name": "Astra.ai",
+                "symbol": "Astra.ai"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000003815",
+            "priceUsd": "0.000007721",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1082,
+                    "sells": 1055
+                }
+            },
+            "volume": {
+                "h24": 417067.71,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -88.59
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 619.3297,
+                "quote": 1.303e-05
+            },
+            "fdv": 7721,
+            "marketCap": 7721,
+            "pairCreatedAt": 1738515499000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/dBJhMFNU9LDMh2d3fjotVnDfXkMSKwiZU9q9gzhpump.png?key=011038",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/dBJhMFNU9LDMh2d3fjotVnDfXkMSKwiZU9q9gzhpump/header.png?key=011038",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/dBJhMFNU9LDMh2d3fjotVnDfXkMSKwiZU9q9gzhpump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/patsudachi1970"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/8mbmsdt3glok7ksypf8ogbid16gikko5ncmkpb7zut54",
+            "pairAddress": "8MBMsdT3gLok7ksYPF8oGbiD16giKko5nCMkPB7zUt54",
+            "baseToken": {
+                "address": "EvszZNMiNjry6T4Dpb6k8bTpasFt8TCwdEK9g2hTpump",
+                "name": "Svarion Search Engine",
+                "symbol": "SVARION"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000000008775",
+            "priceUsd": "0.00000001771",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 2661,
+                    "sells": 2303
+                }
+            },
+            "volume": {
+                "h24": 633019.51,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -99.98
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 44748,
+                "quote": 6.4e-08
+            },
+            "fdv": 18,
+            "marketCap": 18,
+            "pairCreatedAt": 1738515821000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/EvszZNMiNjry6T4Dpb6k8bTpasFt8TCwdEK9g2hTpump.png?key=4b9da4",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EvszZNMiNjry6T4Dpb6k8bTpasFt8TCwdEK9g2hTpump/header.png?key=4b9da4",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EvszZNMiNjry6T4Dpb6k8bTpasFt8TCwdEK9g2hTpump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/zukiriwa1970"
+                    }
+                ]
+            }
+        }
+    ]
+}

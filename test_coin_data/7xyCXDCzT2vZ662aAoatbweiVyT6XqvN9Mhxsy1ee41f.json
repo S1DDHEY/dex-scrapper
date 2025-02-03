@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/dpk2bvtkgq25k96me44z45cv5hzdnc3zbxe1nymd9ce",
+            "pairAddress": "dPk2BvTKgQ25k96ME44z45cv5hzdnc3zBXE1NYmD9ce",
+            "baseToken": {
+                "address": "7xyCXDCzT2vZ662aAoatbweiVyT6XqvN9Mhxsy1ee41f",
+                "name": "Blitzer Sports",
+                "symbol": "BlitzerAi"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.000000008000",
+            "priceUsd": "0.000001567",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1747,
+                    "sells": 1282
+                }
+            },
+            "volume": {
+                "h24": 633421.14,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -97.66
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 440.2721,
+                "quote": 3.477e-06
+            },
+            "fdv": 1567,
+            "marketCap": 1567,
+            "pairCreatedAt": 1738518292000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/7xyCXDCzT2vZ662aAoatbweiVyT6XqvN9Mhxsy1ee41f.png?key=0e1a1c",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7xyCXDCzT2vZ662aAoatbweiVyT6XqvN9Mhxsy1ee41f/header.png?key=0e1a1c",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7xyCXDCzT2vZ662aAoatbweiVyT6XqvN9Mhxsy1ee41f?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/hitonogu1977"
+                    }
+                ]
+            }
+        }
+    ]
+}

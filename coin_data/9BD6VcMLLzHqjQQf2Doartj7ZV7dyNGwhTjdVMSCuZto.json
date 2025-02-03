@@ -1,0 +1,61 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/9xt27e5vvf8phd1utzijsgbfvev2jmt778boslundmoh",
+            "pairAddress": "9Xt27e5vVF8phd1uTziJsGbfVev2jMt778BoSLUNdMoH",
+            "baseToken": {
+                "address": "9BD6VcMLLzHqjQQf2Doartj7ZV7dyNGwhTjdVMSCuZto",
+                "name": "Coca-Cola",
+                "symbol": "Coca-Cola"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.0005583",
+            "priceUsd": "0.1272",
+            "txns": {
+                "m5": {
+                    "buys": 317,
+                    "sells": 241
+                },
+                "h1": {
+                    "buys": 317,
+                    "sells": 241
+                },
+                "h6": {
+                    "buys": 317,
+                    "sells": 241
+                },
+                "h24": {
+                    "buys": 317,
+                    "sells": 241
+                }
+            },
+            "volume": {
+                "h24": 183568.9,
+                "h6": 183568.9,
+                "h1": 183568.9,
+                "m5": 183568.9
+            },
+            "priceChange": {
+                "m5": 21214,
+                "h1": 21214,
+                "h6": 21214,
+                "h24": 21214
+            },
+            "liquidity": {
+                "usd": 76430.55,
+                "base": 302889,
+                "quote": 166.2382
+            },
+            "fdv": 127251807,
+            "marketCap": 127251807,
+            "pairCreatedAt": 1738411280000
+        }
+    ]
+}

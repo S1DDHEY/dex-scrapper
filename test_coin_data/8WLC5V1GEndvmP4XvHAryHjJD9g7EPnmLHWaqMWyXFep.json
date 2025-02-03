@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/9owe5j3bs1tjkwb7xbnvtbzedrgz6q3csziy9ye26rk9",
+            "pairAddress": "9oWe5J3bs1TjKwB7XBnVtbzEDRGZ6q3cSziY9YE26Rk9",
+            "baseToken": {
+                "address": "8WLC5V1GEndvmP4XvHAryHjJD9g7EPnmLHWaqMWyXFep",
+                "name": "Stargate",
+                "symbol": "Stargate"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000000000001525",
+            "priceUsd": "0.000000000003030",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 1
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 1
+                },
+                "h24": {
+                    "buys": 1999,
+                    "sells": 1760
+                }
+            },
+            "volume": {
+                "h24": 585334.51,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h1": -70.96,
+                "h6": -70.96,
+                "h24": -100
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 1265669,
+                "quote": 2.6e-08
+            },
+            "pairCreatedAt": 1738516093000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/8WLC5V1GEndvmP4XvHAryHjJD9g7EPnmLHWaqMWyXFep.png?key=620a28",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8WLC5V1GEndvmP4XvHAryHjJD9g7EPnmLHWaqMWyXFep/header.png?key=620a28",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8WLC5V1GEndvmP4XvHAryHjJD9g7EPnmLHWaqMWyXFep?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://twitter.com/stargatecto_"
+                    }
+                ]
+            }
+        }
+    ]
+}

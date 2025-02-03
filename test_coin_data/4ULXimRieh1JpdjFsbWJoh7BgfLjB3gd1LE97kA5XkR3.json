@@ -1,0 +1,71 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/9iddgddlw42esenydchqhgl1y5m2xabrtjx7tzabhgbs",
+            "pairAddress": "9iDdGdDLW42eSenydChQhgL1Y5M2xAbrTJX7TZaBHgbs",
+            "baseToken": {
+                "address": "4ULXimRieh1JpdjFsbWJoh7BgfLjB3gd1LE97kA5XkR3",
+                "name": "D.O.G.E.",
+                "symbol": "D.O.G.E"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.00000000000003591",
+            "priceUsd": "0.000000000007001",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 1
+                },
+                "h24": {
+                    "buys": 1201,
+                    "sells": 259
+                }
+            },
+            "volume": {
+                "h24": 560958.16,
+                "h6": 0.02,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h6": 6.67,
+                "h24": -99.94
+            },
+            "liquidity": {
+                "usd": 91.59,
+                "base": 6534623652430,
+                "quote": 0.2351
+            },
+            "fdv": 70,
+            "marketCap": 70,
+            "pairCreatedAt": 1738521071000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/4ULXimRieh1JpdjFsbWJoh7BgfLjB3gd1LE97kA5XkR3.png?key=98368e",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/4ULXimRieh1JpdjFsbWJoh7BgfLjB3gd1LE97kA5XkR3/header.png?key=98368e",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/4ULXimRieh1JpdjFsbWJoh7BgfLjB3gd1LE97kA5XkR3?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/gov_doge_sol"
+                    }
+                ]
+            }
+        }
+    ]
+}

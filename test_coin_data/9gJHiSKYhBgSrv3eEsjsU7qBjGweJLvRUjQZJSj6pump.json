@@ -1,0 +1,70 @@
+{
+    "schemaVersion": "1.0.0",
+    "pairs": [
+        {
+            "chainId": "solana",
+            "dexId": "raydium",
+            "url": "https://dexscreener.com/solana/7oxwz49haz33owvht4pcqpawcodbwdv7axd3sy1pfyje",
+            "pairAddress": "7oxWz49HAz33oWVht4pcQpAwcoDbWdv7AxD3sy1pfyJE",
+            "baseToken": {
+                "address": "9gJHiSKYhBgSrv3eEsjsU7qBjGweJLvRUjQZJSj6pump",
+                "name": "Omega AI",
+                "symbol": "OA"
+            },
+            "quoteToken": {
+                "address": "So11111111111111111111111111111111111111112",
+                "name": "Wrapped SOL",
+                "symbol": "SOL"
+            },
+            "priceNative": "0.000000006962",
+            "priceUsd": "0.000001368",
+            "txns": {
+                "m5": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h1": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h6": {
+                    "buys": 0,
+                    "sells": 0
+                },
+                "h24": {
+                    "buys": 1939,
+                    "sells": 1430
+                }
+            },
+            "volume": {
+                "h24": 585413.06,
+                "h6": 0,
+                "h1": 0,
+                "m5": 0
+            },
+            "priceChange": {
+                "h24": -97.31
+            },
+            "liquidity": {
+                "usd": 0,
+                "base": 922.3189,
+                "quote": 2.028e-06
+            },
+            "fdv": 1368,
+            "marketCap": 1368,
+            "pairCreatedAt": 1738518271000,
+            "info": {
+                "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/9gJHiSKYhBgSrv3eEsjsU7qBjGweJLvRUjQZJSj6pump.png?key=be6eae",
+                "header": "https://dd.dexscreener.com/ds-data/tokens/solana/9gJHiSKYhBgSrv3eEsjsU7qBjGweJLvRUjQZJSj6pump/header.png?key=be6eae",
+                "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9gJHiSKYhBgSrv3eEsjsU7qBjGweJLvRUjQZJSj6pump?timestamp=1738585800000",
+                "websites": [],
+                "socials": [
+                    {
+                        "type": "twitter",
+                        "url": "https://x.com/facuu99rugby"
+                    }
+                ]
+            }
+        }
+    ]
+}
